@@ -1,0 +1,229 @@
+/*
+HTML TAGS
+*/
+body{
+    margin: 0;
+    padding:0;
+    font-family: 'Catamaran';
+}
+header{
+    width: 100%;
+}
+input{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: .1em solid #aaabab;
+}
+textarea{
+    border: .1em solid #aaabab;
+}
+footer{
+    width: 100%;
+    padding: .5em 0 .5em;
+    background: #fff;
+    text-align: center;
+}
+
+/* positioning: position, z-index, bottom, top, left, right */
+/* display & box model: display, overflow, box-sizing, width, height, padding, margin, border */
+/* color: background, color */
+/* text: font-family, font-size, line-height, text-align */
+/* other: cursor */
+
+/*
+CLASSES
+*/
+.gray-subtitles{
+    padding: 0 3em;
+    margin: 0;
+    font-size: 1.4em;
+    font-weight: 900;
+    text-align: center;
+    color: #333333;
+}
+.gray-text{
+    padding: 0;
+    margin: 1em 0 0;
+    font-size: 0.8em;
+    font-weight: 400;
+    text-align: center;
+    color: #555555;
+}
+
+/*-------------------------------*/
+/*NAV*/
+.top-bar{
+    width:100%;
+    padding: .1em 0;
+    background: #202020;
+}
+.bar-text{
+    padding: 0;
+    font-weight: 900;
+    font-size: .8em;
+    color: #fff;
+}
+.logo{
+    float: left;
+    padding: 0.5em;
+    width: 2em;
+}
+/*-------------------------------*/
+/*INTRO*/
+.intro-section{
+    width: 100%;
+    padding: 10em 0;
+    background: url(../images/07.jpg);
+    background-size: cover;
+    background-position: right bottom;
+}
+.intro-title{
+    padding: 0 .6em;
+    margin: 0;
+    color: #fff;
+    font-weight: 900;
+    font-size: 2.8em;
+    line-height: 1.3em;
+    text-align: center left;
+}
+.details-btn{
+    display: block;
+    margin: 0 2em;
+    width: 8em;
+    padding: 1em;
+    border-radius: 0;
+    text-align: center;
+    background: #ff690f;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 900;
+}
+/*-------------------------------*/
+/*OFFERS*/
+.offer-section{
+    text-align: center;
+    background: #fff;
+}
+
+.offer-title{
+    padding: 0;
+    margin: 1em 0 .2em;
+    font-weight: 900;
+    color: #333333;
+    font-size: 2em;
+}
+.offer-text{
+    padding: 0 2.5em 2em;
+    font-size: .9em;
+    font-weight: 400;
+    line-height: 1.3em;
+    color: #000;
+}
+/*-------------------------------*/
+/*BUYABLES*/
+.buy-section{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background: #fff;
+}
+.buy-pictures{
+    margin: 4em 0 0;
+}
+.buy-titles{
+    margin: 0 0 1em;
+}
+.buy-button{
+    display: block;
+    margin: auto;
+    width: 8em;
+    padding: 1em 2em;
+    border-radius: .3em;
+    text-align: center;
+    background: #ff690f;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 900;
+}
+/*-------------------------------*/
+/*SCHOOL*/
+.school-section{
+    width: 100%;
+    text-align: center;
+}
+.picture{
+    margin: 4em 0 1em;
+    width: 22.5em;
+}
+.school-title{
+    font-size: 2em;
+    line-height: 1.3em;
+    color: #333333;
+}
+.numbers{
+    padding: 0 1em;
+    margin: 0;
+    font-size: 2.8em;
+    font-weight: 900;
+    line-height: 1em;
+    color: #ff690f;
+}
+.numbers-of{
+    padding: 0;
+    margin: 1em 0 3em;
+    line-height: 0;
+}
+.row{
+    width: 100%;
+}
+.col{
+    width: 50%;
+    float: left;
+}
+/*-------------------------------*/
+/*QUOTE*/
+.testimonials-section{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background: #fff;
+}
+.testimonial-text{
+    padding: 0 6em;
+    font-size: .62em;
+}
+/*-------------------------------*/
+/*FOOTER*/
+.footer-section{
+    width: 100%;
+    padding: 1em 0 0;
+    background: url(../images/05.png);
+    background-size: cover;
+    background-position: center bottom;
+}
+.footer-icon{
+    padding: 1em 2em 0;
+    width: 1em;
+}
+.footer-title{
+    margin: 2em 0 0;
+    font-size: 3em;
+    color: #fff;
+}
+.bottom-nav{
+    margin: 0;
+    padding: 0 0 3em;
+}
+.bottom-nav-item{
+    display: inline-block;
+    padding: 0;
+    margin: 0 0.7em;
+}
+.footer-link{
+    font-size: 1.4em;
+    color: #fff;
+}
+.footer-link:hover{
+    color: #ff690f;
+}
